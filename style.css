@@ -9,7 +9,7 @@ body {
     background-color: #1F2937;
     display:flex;
     flex-direction: row;
-    justify-content: space-between;
+    padding: 16px;
 }
 .header-link {
     display:flex;
