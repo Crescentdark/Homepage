@@ -32,6 +32,7 @@ a {
     display:flex;
     color: #F9FAF8;
     font-size: 24px;
+    font-weight: 900;
 }
 .content1{
     display:flex;
@@ -39,9 +40,9 @@ a {
     background-color: #1F2937;
     flex-wrap: wrap;
     gap: 8px;
-    align-items: center;
+    align-content: center;
     justify-content: center;
-    padding: 48px;
+    padding: 88px;
     
 }
 
@@ -52,6 +53,7 @@ a {
     font-weight: 900;
     width:400px;
     margin-bottom: auto;
+    margin-top: 0px;
 
 }
 .subtext {
@@ -67,6 +69,9 @@ button {
     display:flex;
     background-color: #3882f6;
     color: #E5E7EB;
+    border-radius: 8px;
+    border: 2px solid #3882f6;
+    padding:8px 24px;
 }
 .himage {
     display:flex;
@@ -74,4 +79,15 @@ button {
     width:450px;
     height:200px;
 
+}
+.content2 {
+    display:flex;
+    background-color: #F9FAF8;
+    justify-content: center;
+}
+.subtitle2 {
+    display: flex;
+    color: #1F2937;
+    font-weight: 900;
+    font-size: 36px;
 }
