@@ -81,13 +81,31 @@ button {
 
 }
 .content2 {
-    display:flex;
+    display: flex;
     background-color: #F9FAF8;
-    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
 }
 .subtitle2 {
-    display: flex;
     color: #1F2937;
     font-weight: 900;
     font-size: 36px;
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: space-around;
+}
+.square {
+    display:flex;
+    border-radius: 25px;
+    border: 4px solid #3882f6;
+    width: 200px;
+    height: 200px;
+    gap: 52px;
+    justify-content: center;
+}
+.squareinfo {
+    display: flex;
+    max-width: 200px;
+    margin-top: auto;
 }
